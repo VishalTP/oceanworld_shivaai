@@ -7,7 +7,7 @@ import { Mail, Lock, AlertCircle, Loader2 } from "lucide-react";
 
 export default function LoginPage() {
     const router = useRouter();
-    const [formData, setFormData] = useState({ email: "vishal@hotmail.com", password: "Vishal@1996" });
+    const [formData, setFormData] = useState({ email: "vishal@yopmail.com", password: "Vishal@1996" });
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState("");
 
