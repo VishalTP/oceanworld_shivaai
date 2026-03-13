@@ -173,7 +173,7 @@ export default function AdminCoupons() {
 
                     <Dialog open={isAddOpen} onOpenChange={(open) => { setIsAddOpen(open); if (!open) resetForm(); }}>
                         <DialogTrigger asChild>
-                            <Button className="font-bold"><Plus className="w-4 h-4 mr-2" /> Add Coupon</Button>
+                            <Button className="font-bold">Add Coupon</Button>
                         </DialogTrigger>
                         <DialogContent className="sm:max-w-[500px]">
                             <DialogHeader>
